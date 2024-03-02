@@ -27,7 +27,6 @@ function App() {
 
     const onTextareaChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
         setDomains(e.target.value);
-        console.log(getConfigByDomains(e.target.value, redirectTime))
     }
 
     const onRedirectTimeInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
